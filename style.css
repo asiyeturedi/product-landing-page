@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family:  -apple-system, BlinkMacSystemFont, sans-serif; 
+}
+
+html,body{
+
+    background-color:#050407 ;
+    overflow: hidden;
+
+
+}
+
+img{
+    overflow:hidden;
+}
+body a,p,h1,h3
+{
+    color:white;
+}
+div#cta {
+     
+  
+   background-color:#1B246C;
+   min-height: 3rem;
+   
+
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+}
+
+div#cta img{
+
+    position: absolute;
+    right: 0.5rem;
+    
+}
+
+header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    
+}
+
+header nav 
+{
+    text-decoration: none;
+    display: flex;
+    margin:0 auto;
+}
+
+header h3{
+    margin-right:16px;
+    color:black;
+    font-size: 18px;
+    padding: 0.5rem;
+
+    
+    font-weight: 100;
+
+    border:solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+
+}
+
+header h1
+{
+    position: absolute;
+    margin-left:16px;
+}
+header nav a{
+
+    text-decoration: none;
+    margin:1rem;
+    font-size: 18px;
+
+}
+header a:hover
+{
+    color:grey;
+}
+
+header h3:hover{
+    color:grey;
+}
+
+.center {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+section#mid
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+footer 
+{
+    background-color: #1B246C;
+    min-height: 50px;
+
+    padding-top: 1rem;
+    
+    padding-left:1rem ;
+    padding-right: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+footer a
+{
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:grey;
+}
+
+
+
+
+
+
+
+
